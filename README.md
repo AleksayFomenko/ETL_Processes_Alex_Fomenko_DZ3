@@ -9,7 +9,7 @@ etl_Processes_Alex_Fomenko_hw2/
 ├── dags/
 │   ├──full_load_iot.py
 │   ├──incremental_load_iot.py 
-│   └── operate_IOT.py
+│   └──operate_IOT.py
 ├── config/
 │   └── ..
 ├── logs/
