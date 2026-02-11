@@ -20,7 +20,7 @@ with DAG(
     tags=["postgres", "IOT"]
 ) as dag:
     init_schema = SQLExecuteQueryOperator(
-        task_id="init_schema ",
+        task_id="init_schema",
         conn_id="postgres_my_data",
         autocommit=True,
         retries=0,
